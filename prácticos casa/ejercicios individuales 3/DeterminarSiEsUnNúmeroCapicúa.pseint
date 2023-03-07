@@ -1,0 +1,16 @@
+Algoritmo DeterminarSiEsUnNúmeroCapicúa
+	Definir num Como Entero
+	Escribir "Por favor, ingrese un número de tres cifras y que sea entero."
+	Leer num
+	Si num>99 y num<1000 Entonces
+		primeraCifra=trunc(num/100)
+		segundaCifra=num mod 10
+		Si primeraCifra=segundaCifra Entonces
+			Imprimir "El número " num " es capicúa."
+		SiNo
+			Imprimir "El número " num " no es capicúa."
+		Fin Si
+	SiNo
+		Imprimir "El número que ingresó no es de 3 cifras."
+	Fin Si
+FinAlgoritmo

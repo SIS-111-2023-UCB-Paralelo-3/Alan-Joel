@@ -1,0 +1,19 @@
+
+	Algoritmo ProgramaDeUnNúmeroMayor
+		Definir num, num18 Como Real
+		Imprimir "Si su número es mayor a 500 se determinará el 18% de este, de lo contrario no se realizará ninguna acción."
+		Escribir "Ingrese el número, por favor."
+		Leer num
+		Si num=500 Entonces
+			Imprimir "El número que ingresó es igual a 500."
+		SiNo
+			Si num>500 Entonces
+				num18=(num*18) / 100
+				Imprimir "Su número es mayor a 500."
+				Imprimir "El 18% de " num " es: " num18
+			SiNo
+				Imprimir "El número que ingresó es menor a 500."
+			Fin Si
+		Fin Si
+FinAlgoritmo
+

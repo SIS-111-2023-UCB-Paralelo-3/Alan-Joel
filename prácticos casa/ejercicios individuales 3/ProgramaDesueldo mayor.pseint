@@ -1,0 +1,26 @@
+Algoritmo SueldoMinimo
+	Definir sueldoActual, sueldoMinim Como Real
+	Definir conocimientoSueldo Como Caracter
+	Escribir "El sueldo mínimo actual en Bolivia en este 2023 es de 2250 bs"
+	Escribir "Este dato sigue siendo así o ha cambiado?"
+	Escribir "1: ha cambiado"
+	Escribir "2: sigue siendo ese"
+	Leer conocimientoSueldo
+	Si conocimientoSueldo = "1" Entonces
+		Escribir "¿Cuál es el nuevo sueldo mínimo?"
+		Leer sueldoMinim
+	SiNo
+		sueldoMinim = 2250
+	Fin Si
+	Escribir "Entonces tomando en cuenta este parámetro, se le va a indicar si su sueldo es mayor a este"
+	
+	Escribir "¿Cuál es el sueldo que le pagan?"
+	Leer sueldoActual
+	Si sueldoActual > sueldoMinim Entonces
+		Escribir "Su sueldo actual es mayor al sueldo mínimo"
+	SiNo
+		Escribir "Su sueldo actual es menor al sueldo mínimo, debe corregir este problema en el trabajo "
+	Fin Si
+FinAlgoritmo
+
+	
