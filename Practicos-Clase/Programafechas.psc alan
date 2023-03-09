@@ -1,0 +1,41 @@
+Algoritmo Programafechas
+	Definir dia,mes,año Como Entero
+	Definir nombremes Como Caracter
+	Escribir "ingrese el dia"
+	Leer dia
+	Escribir "ingrese el mes"
+	Leer mes
+	Escribir "ingrese el año"
+	Leer año
+	Si dia<1 o dia>31
+	FinSi
+	si mes<1 o mes>12
+		
+	FinSi
+	si año<1
+		
+	FinSi
+	Segun mes Hacer
+		caso 1:nombremes="enero"
+		caso 2:nombremes="febrero"
+		caso 3:nombremes="marzo"
+		caso 4:nombremes="abril"
+		caso 5:nombremes="mayo"
+		caso 6:nombremes="junio"
+		caso 7:nombremes="julio"
+		caso 8:nombremes="agosto"
+		caso 9:nombremes="septiembre"
+		caso 10:nombremes="octubre"
+		caso 11:nombremes="noviembre"
+		caso 12:nombremes="diciembre"
+	FinSegun
+	Escribir dia,"de",nombremes," de ",año
+
+	
+	
+	
+	
+	
+	
+	
+FinAlgoritmo
